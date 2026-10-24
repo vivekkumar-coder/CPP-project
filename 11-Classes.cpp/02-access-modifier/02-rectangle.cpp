@@ -1,0 +1,15 @@
+#include "02-rectangle.h"
+#include <iostream>
+
+using namespace std;
+
+void Rectangle::draw()
+{
+  cout << "Drawing a rectangle" << endl
+       << "Dimensions: " << width << ", " << height << endl;
+}
+
+int Rectangle::getArea()
+{
+  return width * height;
+}
